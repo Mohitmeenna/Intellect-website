@@ -1,0 +1,101 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #video-background {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            width: 100%;
+            height: auto;
+            z-index: -100;
+        }
+
+        .content {
+            position: relative;
+            z-index: 1;
+        }
+        .navbar {
+            height: 70px; /* Set navbar height to 30px */
+            padding: 0; /* Remove default padding */
+        }
+
+        /* Override navbar-brand padding */
+        .navbar-brand {
+            padding: 0;
+            height: 100%; /* Ensure navbar-brand spans full height of navbar */
+        }
+
+        /* Override navbar-nav padding and margin */
+        .navbar-nav {
+            padding: 0;
+            margin: 0;
+        }
+
+        /* Override nav-link padding and margin */
+        .nav-link {
+            padding: 0.5rem 1rem; /* Adjust padding of nav links */
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body style="background-color: rgb(0, 0, 0);">
+
+    
+
+    <nav class="navbar" style="height: 105px;">
+        <div class="navbar-lf">
+            <button class="nav-button" style="margin-left: 10px;">Home</button>
+            <button class="nav-button">About</button>
+        </div>
+        <div class="navbar-rgt">
+            <button class="nav-button">Login</button>
+            <button class="nav-button">Signup</button>
+        </div>
+    </nav>
+
+
+    <video autoplay loop muted id="video-background">
+        <source src="vid.mp4" type="video/mp4">
+    </video>
+    <div class="content">
+        <div id="col">
+            <h1>Hey </h1>
+            <h1 id="a">Intellect</h1>
+        </div>
+        <H3>Experience Intellect's Personal AI Assistant</H3>
+
+    </div>
+    <div id="div2" style="margin-top: 250px; margin-bottom: 200px; "><button>Join Waitlist</button>
+        <h5>hey guys we do, we do something, <br>i dont what but we do something, hi hi hi </h5>
+
+    </div>
+
+
+    <div style="margin-left: 154px; margin-right: 154px;">
+        <h2>Intellect Alpha </h2>
+        <h5>Intellect alpha works on your personal data, managing your data and providing with you insights on updates without any human intervention. Being still in early phases of development we have enabled gmail data access to your personal assistant </h5>
+        <img src="android.png" alt="">
+    </div>
+    <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">About</a></li>
+          </ul>
+          <p class="text-center text-muted">© 2021 Company, Inc</p>
+        </footer>
+      </div>
+</body>
+
+</html>
